@@ -1,14 +1,17 @@
 # Visa Navigator
 
 ## Purpose
+
 Visa Navigator is a user-friendly visa portal designed to simplify the process of checking visa requirements, applying for visas online, and tracking applications. The platform provides authentication, role-based access, and administrative controls for managing visa information.
 
 ## Live URL
+
 [Live Demo](https://visa-navigator-d3c13.web.app/)
 
 ---
 
 ## Key Features
+
 - **User Authentication:** Create an account and log in securely.
 - **Google Authentication:** Login with Google popup.
 - **Role-Based Access:** Different routes have unique designs based on roles.
@@ -23,6 +26,7 @@ Visa Navigator is a user-friendly visa portal designed to simplify the process o
 ## Tech Stack
 
 ### Frontend
+
 - **React.js** (UI Library)
 - **TailwindCSS** (Styling)
 - **DaisyUI** (UI Components)
@@ -35,25 +39,28 @@ Visa Navigator is a user-friendly visa portal designed to simplify the process o
 - **Swiper** (Image Sliders)
 
 ### Backend
+
 - **Express.js** (Backend Framework)
 - **MongoDB** (Database)
-- **JWT (JSON Web Tokens)** (Authentication & Authorization)
 
 ---
 
 ## Installation & Setup (Local Testing)
 
 ### Prerequisites
+
 - Node.js (Latest Version Recommended)
 - MongoDB (Local or Cloud Instance)
 
 ### Clone Repository
+
 ```sh
   git clone https://github.com/mdtayef001/VISA-NAVIGATOR.git
   cd VISA-NAVIGATOR
 ```
 
 ### Frontend Setup
+
 1. Install dependencies:
    ```sh
    cd client
@@ -70,6 +77,7 @@ Visa Navigator is a user-friendly visa portal designed to simplify the process o
    ```
 
 ### Backend Setup
+
 1. Navigate to the backend folder:
    ```sh
    cd server
@@ -82,10 +90,10 @@ Visa Navigator is a user-friendly visa portal designed to simplify the process o
    ```env
    PORT=5000
    MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_secret_key
+   DB_USER=your_mongodb_user_name
+   DB_PASS=your_mongodb_password
    ```
 4. Start the backend server:
    ```sh
    npm run dev
    ```
-
