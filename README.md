@@ -14,7 +14,6 @@ Visa Navigator is a user-friendly visa portal designed to simplify the process o
 
 - **User Authentication:** Create an account and log in securely.
 - **Google Authentication:** Login with Google popup.
-- **Role-Based Access:** Different routes have unique designs based on roles.
 - **Visa Management:**
   - Add and delete visa information.
   - Update visa details.
